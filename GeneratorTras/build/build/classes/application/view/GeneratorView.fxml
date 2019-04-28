@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+<AnchorPane minHeight="400.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" styleClass="background"
+            stylesheets="@darktheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.view.GeneratorViewController">
+    <SplitPane dividerPositions="0.3" layoutX="223.0" layoutY="95.0" prefHeight="400.0" prefWidth="600.0"
+               styleClass="background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+               AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <AnchorPane maxWidth="300.0" minHeight="0.0" minWidth="250.0" prefHeight="160.0"
+                    stylesheets="@darktheme.css">
+            <VBox layoutX="134.0" layoutY="-2.0" prefHeight="195.0" prefWidth="234.0" spacing="5.0"
+                  AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                <Label text="Wprowadź parametry:">
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                </Label>
+
+                <TextField fx:id="txtDays" maxWidth="200.0" promptText="Liczba dni roboczych"/>
+                <TextField fx:id="txtMinKm" maxWidth="200.0" promptText="Min. suma kilometrów"/>
+                <TextField fx:id="txtMaxKm" maxWidth="200.0" promptText="Maks. suma kilometrów"/>
+                <Label text="Wybierz metodę generowania:">
+                    <VBox.margin>
+                        <Insets top="15.0"/>
+                    </VBox.margin>
+                </Label>
+                <RadioButton fx:id="rdDays" mnemonicParsing="false" text="wg liczby dni">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="tgMetody"/>
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="rdKm" mnemonicParsing="false" text="wg sumy kilometrów"
+                             toggleGroup="$tgMetody"/>
+                <CheckBox fx:id="chDelta" mnemonicParsing="false" text="Włącz ~10% odchyłkę do km">
+                    <VBox.margin>
+                        <Insets top="15.0"/>
+                    </VBox.margin>
+                </CheckBox>
+            </VBox>
+            <ButtonBar prefHeight="50.0" prefWidth="248.0" AnchorPane.bottomAnchor="0.0"
+                       AnchorPane.rightAnchor="10.0">
+                <buttons>
+                    <Button fx:id="btGenerate" defaultButton="true" mnemonicParsing="false"
+                            onAction="#handleGenerateBt" text="GENERUJ">
+                        <cursor>
+                            <Cursor fx:constant="DEFAULT"/>
+                        </cursor>
+                    </Button>
+                    <Button fx:id="btSaveFile" mnemonicParsing="false" onAction="#handleSaveBt"
+                            text="Zapisz do pliku">
+                        <cursor>
+                            <Cursor fx:constant="DEFAULT"/>
+                        </cursor>
+                    </Button>
+                </buttons>
+            </ButtonBar>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="300.0" prefHeight="160.0">
+            <TableView fx:id="tableRoutes" minWidth="250.0" prefHeight="195.0" prefWidth="340.0"
+                       AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                       AnchorPane.topAnchor="0.0">
+                <columns>
+                    <TableColumn fx:id="colName" minWidth="300.0" prefWidth="-1.0" text="Odcinek"/>
+                    <TableColumn fx:id="colLength" minWidth="50.0" prefWidth="75.0" text="km"/>
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+        </AnchorPane>
+    </SplitPane>
+</AnchorPane>

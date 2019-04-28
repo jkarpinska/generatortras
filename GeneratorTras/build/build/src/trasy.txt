@@ -1,0 +1,29 @@
+﻿Ciepłownicza Kraków – Sikorskiego Trzebinia – Ciepłownicza Kraków,130,0.5
+Ciepłownicza Kraków – Nad Baranówką Kraków – Ciepłownicza Kraków,35,2
+Ciepłownicza Kraków – Spiska Kraków – Ciepłownicza Kraków,25,2
+Ciepłownicza Kraków – Batorego Kraków – Ciepłownicza Kraków,30,0.5
+Ciepłownicza Kraków – Grottgera Kraków – Ciepłownicza Kraków,32,1
+Ciepłownicza Kraków – Romanowicza Kraków – Ciepłownicza Kraków,20,0.5
+Ciepłownicza Kraków – Ludźmierz – Ciepłownicza Kraków,180,0.5
+Ciepłownicza Kraków – Grębałowska Kraków – Ciepłownicza Kraków,25,3
+Ciepłownicza Kraków – Łagiewnicka Kraków – Ciepłownicza Kraków,25,1
+Ciepłownicza Kraków – Mościckiego Tarnów – Ciepłownicza Kraków,160,1
+Ciepłownicza Kraków – Skrzetlewska Kielce – Ciepłownicza Kraków,255,1
+Ciepłownicza Kraków – Zygmuntowska Kraków – Ciepłownicza Kraków,30,1
+Ciepłownicza Kraków – Kantorowicka Kraków – Ciepłownicza Kraków,30,1
+Ciepłownicza Kraków – Rakowicka Kraków – Ciepłownicza Kraków,25,0.5
+Ciepłownicza Kraków – Łany Bochnia – Ciepłownicza Kraków,100,1
+Ciepłownicza Kraków – Dukielska Gorlice – Ciepłownicza Kraków,250,0.5
+Ciepłownicza Kraków – Wąwozowa Kraków – Ciepłownicza Kraków,20,2
+Ciepłownicza Kraków – Łazy Biegonickie – Ciepłownicza Kraków,200,1
+Półłanki Kraków – Warszawska Kielce – Półłanki Kraków,240,1
+Półłanki Kraków – Siewna Kraków – Półłanki Kraków,30,1
+Półłanki Kraków – Warzywna Nowy Sącz – Półłanki Kraków,200,1
+Ciepłownicza Kraków – Bujaka Kraków – Ciepłownicza Kraków,25,1
+Ciepłownicza Kraków – Olszewskiego Kielce – Ciepłownicza Kraków,250,1
+Półłanki Kraków – Cesarski Gościniec Okocim – Półłanki Kraków,120,1
+Półłanki Kraków – Okrzei Kielce – Półłanki Kraków,250,1
+Ciepłownicza Kraków – Warszawska Węgrzce – Ciepłownicza Kraków,40,1
+Ciepłownicza Kraków – Witkiewicza Zakopane – Ciepłownicza Kraków,240,0.5
+Ciepłownicza Kraków – Ściegiennego Olkusz – Ciepłownicza Kraków,100,0.5
+Ciepłownicza Kraków – Wadowicka Kraków – Ciepłownicza Kraków,30,1

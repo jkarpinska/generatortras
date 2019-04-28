@@ -1,0 +1,3 @@
+numberOfUses,0
+preferredFile,trasy.txt
+lastUsedFile,trasy.txt

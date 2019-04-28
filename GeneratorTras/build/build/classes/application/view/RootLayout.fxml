@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RootLayoutController">
+   <top>
+       <MenuBar BorderPane.alignment="CENTER">
+           <Menu mnemonicParsing="false" text="Plik">
+               <MenuItem mnemonicParsing="false" onAction="#handleClose" text="Zamknij"/>
+           </Menu>
+           <Menu mnemonicParsing="false" text="Zestaw Tras">
+               <MenuItem mnemonicParsing="false" onAction="#handleNew" text="Utwórz nowy"/>
+               <MenuItem mnemonicParsing="false" onAction="#handleOpen" text="Importuj z pliku"/>
+               <MenuItem mnemonicParsing="false" onAction="#handleEdit" text="Edytuj aktualny"/>
+               <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Zapisz aktualny do pliku"/>
+           </Menu>
+           <Menu mnemonicParsing="false" text="Pomoc">
+               <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="O programie"/>
+           </Menu>
+       </MenuBar>
+   </top>
+</BorderPane>
